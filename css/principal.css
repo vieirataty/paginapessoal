@@ -1,0 +1,16 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+
+    background-image: url("imagens/capaPrincipal2.jpg");
+}
+
+a:link{
+    text-decoration: none;
+}
