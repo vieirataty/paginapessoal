@@ -1,0 +1,39 @@
+/*Header*/
+.block-header{
+
+	padding-top: 8px;
+	height: 110px;
+	border-bottom: 2px solid #fff; /*borda branca abaixo do header*/
+
+	background-color: #E4572E; /*Laranja header*/
+}
+
+.block-header--fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+
+.header-menu{
+	margin: 0px;
+	
+	font-size: 1.6rem;
+	list-style: none;
+}
+
+/*Section*/
+.block-section{
+
+}
+
+/*Footer*/
+.block-footer{
+	padding: 10px 0;
+
+	background-color: #669BBC; /*Azul footer*/
+
+	color: #000;
+	text-align: center;
+}
