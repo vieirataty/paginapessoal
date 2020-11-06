@@ -1,0 +1,52 @@
+
+/*Header*/
+
+.block-header__logomarca{
+	float: left;
+
+	width: 120px;
+	height: 85px;
+}
+
+.block-section__imaginacao{
+	background-image: url("D:/DesenvolvimentoWeb/PaginaPessoal_CETEP/imagens/lego1.jpg");
+	background-attachment: fixed;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.block-header__menu{
+	float: right;
+
+	padding-top: 30px;
+}
+
+.header-menu__item{
+	display: inline-block;
+	position: relative;
+
+	padding: 5px;
+	width: 80px;
+	border-bottom: 3px solid #E4572E;
+	-webkit-transition: border-bottom 1s ease-out;
+	-moz-transition: border-bottom 1s ease-out;
+	-o-transition: border-bottom 1s ease-out;
+	-ms-transition: border-bottom 1s ease-out;
+
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+}
+
+.header-menu__item:hover{
+	border-bottom: 3px solid #29335C;
+	filter: alpha(opacity=50);
+	-moz-opacity: 1;
+	opacity: 1;
+	color: #29335C;
+}
+
+/*Section*/
+.block-section__imaginacao{
+	color: #FFF;
+}
