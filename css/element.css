@@ -21,32 +21,57 @@
 	padding-top: 30px;
 }
 
-.header-menu__item{
-	display: inline-block;
-	position: relative;
+.bar-button{
+	width: 37px;
+	height: 37px;
+	border: 0;
 
-	padding: 5px;
-	width: 80px;
-	border-bottom: 3px solid #E4572E;
-	-webkit-transition: border-bottom 1s ease-out;
-	-moz-transition: border-bottom 1s ease-out;
-	-o-transition: border-bottom 1s ease-out;
-	-ms-transition: border-bottom 1s ease-out;
-
-	font-weight: bold;
-	color: #000;
-	text-align: center;
+	background: none;
+	background-image: url("../imagens/barButton.png");
 }
 
-.header-menu__item:hover{
-	border-bottom: 3px solid #29335C;
-	filter: alpha(opacity=50);
-	-moz-opacity: 1;
-	opacity: 1;
-	color: #29335C;
+@media (max-width: 768px){
+	.header-menu__item{
+		display: block;
+
+		line-height: 2.5;
+
+		color: #fff;
+	}
 }
 
-/*Section*/
-.block-section__imaginacao{
-	color: #FFF;
+@media (min-width: 769px){
+	.bar-button{
+		display: none;
+	}
+
+	.header-menu__item{
+		display: inline-block;
+		position: relative;
+
+		padding: 5px;
+		width: 80px;
+		border-bottom: 3px solid #E4572E;
+		-webkit-transition: border-bottom 1s ease-out;
+		-moz-transition: border-bottom 1s ease-out;
+		-o-transition: border-bottom 1s ease-out;
+		-ms-transition: border-bottom 1s ease-out;
+
+		font-weight: bold;
+		color: #000;
+		text-align: center;
+	}
+
+	.header-menu__item:hover{
+		border-bottom: 3px solid #29335C;
+		filter: alpha(opacity=50);
+		-moz-opacity: 1;
+		opacity: 1;
+		color: #29335C;
+	}
+
+	/*Section*/
+	.block-section__imaginacao{
+		color: #FFF;
+	}
 }
