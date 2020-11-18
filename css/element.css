@@ -4,15 +4,8 @@
 .block-header__logomarca{
 	float: left;
 
-	width: 120px;
+	width: 150px;
 	height: 85px;
-}
-
-.block-section__imaginacao{
-	background-image: url("D:/DesenvolvimentoWeb/PaginaPessoal_CETEP/imagens/lego1.jpg");
-	background-attachment: fixed;
-  	background-repeat: no-repeat;
-  	background-size: cover;
 }
 
 .block-header__menu{
@@ -28,6 +21,31 @@
 
 	background: none;
 	background-image: url("../imagens/barButton.png");
+}
+
+/*Footer*/
+
+.block-header__footer{
+	float: center;
+
+	padding-top: 10px;
+}
+
+.footer-menu__item{
+		display: inline-block;
+	    float: left;
+	    margin-left: 5px;
+	    margin-top: 7px;
+	    width: 40px;
+	    height: inherit;
+}
+
+/*Article*/
+.recursos-menu__item{
+	display: inline-block;
+	position: relative;
+
+	padding: 35px;
 }
 
 @media (max-width: 768px){
@@ -74,4 +92,24 @@
 	.block-section__imaginacao{
 		color: #FFF;
 	}
+}
+
+.nav-ada__frase{
+	margin: 0;
+
+	font-size: 3.5rem;
+	line-height: 1em;
+	text-shadow: 2px 2px #454545;
+	color: #fff;
+}
+
+.nav-ada__autora{
+	margin-top: 2px;	
+}
+
+.nav-ada__autora > a{
+	color: #fff;
+
+	text-align: right;
+
 }

@@ -1,11 +1,15 @@
+@font-face{
+	font-family: game;
+	src: url("D:/DesenvolvimentoWeb/PaginaPessoal_CETEP/fontes/game.otf");
+}
+
 /*Header*/
 .block-header{
-
 	padding-top: 8px;
-	height: 110px;
-	border-bottom: 2px solid #fff; /*borda branca abaixo do header*/
-
+	height: 90px;
+	
 	background-color: #E4572E; /*Laranja header*/
+	font-family: game, Verdana, Helvetica, Arial, sans-serif;
 }
 
 .block-header--fixed{
@@ -41,22 +45,75 @@
 	}
 }
 
-@media (min-width: 769px){
-
-
-}
-
 /*Section*/
 .block-section{
+	margin-top: 120px;
+	width:100%;
+}
 
+.recursos-menu{
+	padding:0px;
+    margin:0px;
+    list-style:none;
+    overflow:auto;
+    margin: 0 auto;
 }
 
 /*Footer*/
 .block-footer{
-	padding: 10px 0;
+	padding: 3px 0;
+	height: 80px;
 
 	background-color: #F8D158; /*Amarelo footer*/
+	font-family: game, Verdana, Helvetica, Arial, sans-serif;
 
 	color: #000;
 	text-align: center;
+}
+
+.footer-menu{
+	display: inline-block;
+    height: inherit;
+    float: center;
+    width: 30%;
+    margin: 0;
+    line-height: 10px;
+}
+
+/*Nav*/
+.block-nav{
+	margin-top: 90px;
+	padding: 80px 0;
+	height: 480px;
+
+	font-family: game, Verdana, Helvetica, Arial, sans-serif;
+		
+}
+
+.nav-ada{
+	margin: 100px;
+	font-size: 1.6rem;
+	text-align: center;
+
+	box-sizing: content-box;
+	width: 900px;
+	height: 500px;
+	     
+}
+
+.nav-animada{
+	animation-duration: 3s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 0%;
+    width: 200%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 130%;
+  }
 }
