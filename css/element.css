@@ -48,8 +48,12 @@
 
 .section-texto__imagem{
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+}
+
+.section-texto__gif{
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .section-texto__planoDeCurso{
@@ -88,6 +92,22 @@
     margin-right: auto;
     list-style: none;    
  }
+
+ .section-texto__atividade{
+ 	margin-right: 50px;
+ 	padding-right: 205px;
+ 	padding-left: 95px;
+ }
+
+ @media (min-width: 970px){
+	.section-texto__principal{
+		float: left;
+
+		width: 67%;
+		margin: 10px;
+		padding: 0px 90px 0px 90px;
+	}
+}
 
  .recursos-menu__item{
 	display: inline-block;

@@ -54,26 +54,29 @@
 
 .section-texto{
 
-	padding: 50px 0 0 0;
+	padding: 50px 50px 50px 50px;
 	width: 100%;
 }
 
 .section-quadro{
-	background-image: linear-gradient(to right, #fff, purple); 
+	background-image: linear-gradient(to bottom, #FBE297, #F2B80A 150%); 
+
+	margin-top: 20px;
+	margin-right: 100px;
+	margin-left: 100px;
 
 	font-size: 2rem;
 	text-align: center;
+	
 }
 
-@media (min-width: 970px){
-	.section-texto__principal{
-		float: left;
-
-		width: 67%;
-		margin: 10px;
-		padding: 0px 90px 0px 90px;
-	}
+.section-texto--subtitulo{
+	margin-top: 60px;
+	font-size: 1.7rem;
+	text-align: center;
+	border: 3px solid #418327;
 }
+
 
 .recursos-menu{
 	padding:0px;
