@@ -47,8 +47,32 @@
 
 /*Section*/
 .block-section{
-	margin-top: 120px;
+	margin-top: 160px;
+	padding: 10px 0;
 	width:100%;
+}
+
+.section-texto{
+
+	padding: 50px 0 0 0;
+	width: 100%;
+}
+
+.section-quadro{
+	background-image: linear-gradient(to right, #fff, purple); 
+
+	font-size: 2rem;
+	text-align: center;
+}
+
+@media (min-width: 970px){
+	.section-texto__principal{
+		float: left;
+
+		width: 67%;
+		margin: 10px;
+		padding: 0px 90px 0px 90px;
+	}
 }
 
 .recursos-menu{
@@ -96,7 +120,7 @@
 	text-align: center;
 
 	box-sizing: content-box;
-	width: 900px;
+	width: 1100px;
 	height: 500px;
 	     
 }

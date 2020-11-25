@@ -40,13 +40,77 @@
 	    height: inherit;
 }
 
-/*Article*/
-.recursos-menu__item{
+/*Section*/
+
+.section-texto__conteudo{
+	padding: 50px;
+}
+
+.section-texto__imagem{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-texto__planoDeCurso{
+	margin-top: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+}
+
+.section-texto__descricao{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.section-texto__titulo{
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+.section-texto__lista{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-texto__lista{
+	padding: 0px 50px 50px 120px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;    
+ }
+
+ .recursos-menu__item{
 	display: inline-block;
 	position: relative;
 
 	padding: 35px;
 }
+
+.texto__image{
+	display: inline-block;
+}
+
+.texto__conteudo{
+	display: inline-block;
+}
+
+
+
+.section-texto__descricao{
+	font-size: 1.6rem;
+	text-align: justify;
+}
+
 
 @media (max-width: 768px){
 	.header-menu__item{
@@ -55,6 +119,7 @@
 		line-height: 2.5;
 
 		color: #fff;
+		letter-spacing: 4px;
 	}
 }
 
@@ -78,6 +143,7 @@
 		font-weight: bold;
 		color: #000;
 		text-align: center;
+		letter-spacing: 2px;
 	}
 
 	.header-menu__item:hover{
@@ -88,7 +154,7 @@
 		color: #29335C;
 	}
 
-	/*Section*/
+/*Section*/
 	.block-section__imaginacao{
 		color: #FFF;
 	}
@@ -101,6 +167,7 @@
 	line-height: 1em;
 	text-shadow: 2px 2px #454545;
 	color: #fff;
+	letter-spacing: 5px;
 }
 
 .nav-ada__autora{
